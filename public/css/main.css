@@ -93,12 +93,15 @@ main {
 }
 
 .btn {
-  font: inherit;
-  border: 1px solid #00695c;
-  color: #00695c;
-  background: white;
-  border-radius: 3px;
-  cursor: pointer;
+    font: inherit;
+    border: 1px solid #00695c;
+    color: #00695c;
+    background: white;
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+    top: 1.5vh;
+    left: 5vw;
 }
 
 .btn:hover,
