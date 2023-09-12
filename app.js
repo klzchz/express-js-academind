@@ -20,4 +20,4 @@ app.use('/admin',adminData.routes);
 app.use(shopRoutes);
 app.use(notFound);
 
-app.listen(3000);
+app.listen(8080);
