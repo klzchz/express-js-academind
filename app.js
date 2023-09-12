@@ -4,8 +4,8 @@ const expressHbs = require('express-handlebars');
 
 const app = express();
 
-app.engine('hbs',expressHbs({ layoutsDir:"views/layouts",defaultLayout:"main-layout",extname:'hbs'}));
-app.set('view engine','hbs');
+// app.engine('hbs',expressHbs({ layoutsDir:"views/layouts",defaultLayout:"main-layout",extname:'hbs'}));
+app.set('view engine','ejs');
 app.set('views','views');
 
 const adminData = require('./routes/admin');
@@ -20,4 +20,4 @@ app.use('/admin',adminData.routes);
 app.use(shopRoutes);
 app.use(notFound);
 
-app.listen(8080);
+app.listen(8080);   
