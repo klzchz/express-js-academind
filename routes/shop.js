@@ -12,7 +12,8 @@ router.get('/', (req, res, next) => {
   // res.sendFile(path.join(rootDir,'views','shop.html'));
   res.render('shop',{
     hasProducts:prods.length > 0,
-     docTitle: 'Shop', path: '/admin/add-product',
+     docTitle: 'Shop', 
+     path: '/',
      prods,
      activeShop:true,
      productCSS:true
