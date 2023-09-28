@@ -27,15 +27,17 @@ exports.addProduct = (req,res,next)=>{
   };
 
 exports.getProducts = (req, res, next) => {
-    // res.send('<h1>Hello from Express!</h1>');
-    const products = Product.fetchAll();
+  Product.fetchAll(products => {
+    res.render('shop', {
+      prods: products,
+      docTitle: 'Shop',
+      path: '/',
+      hasProducts: products.length > 0,
+      activeShop: true,
+      productCSS: true
+    });
+  });
+
     // res.sendFile(path.join(rootDir,'views','shop.html'));
-    res.render('shop',{
-      hasProducts:products.length > 0,
-       docTitle: 'Shop', 
-       path: '/',
-       prods:products,
-       activeShop:true,
-       productCSS:true
-      });
+  
   };
