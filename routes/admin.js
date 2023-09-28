@@ -2,33 +2,23 @@ const path = require('path');
 
 const express = require('express');
 
+const adminController = require('../controllers/admin');
+
 const router = express.Router();
-// const fs = require('fs');
-const productsController = require('../controllers/products');
-const rootDir =  require('../util/path');
 
+// /admin/add-product => GET
+router.get('/add-product', adminController.getAddProduct);
 
-    // res.send('<form action="/admin/add-product" method="post"> <input type="text" name="title"><button type="submit">Add a Product</button></form>');
-    // res.sendFile(path.join(rootDir,'views','add-product.html'));
+// /admin/products => GET
+router.get('/products', adminController.getProducts);
 
-  // router.get('/add-product', (req, res, next) => {
-  
-  //   res.render('add-product',{
-  //     docTitle: 'Adding a Product', 
-  //     path: '/admin/add-product',
-  //     activeAddProduct:true,
-  //     formsCSS:true,
-  //     productCSS:true
-  // });
-  // });
+// /admin/add-product => POST
+router.post('/add-product', adminController.postAddProduct);
 
-  router.get('/add-product',productsController.getAddProduct);
-  
-  router.post('/add-product',productsController.addProduct);
+router.get('/edit-product/:productId', adminController.getEditProduct);
 
-  // exports.routes = router;
-  // exports.products = products;
-  module.exports = router;
+router.post('/edit-product', adminController.postEditProduct);
 
+router.post('/delete-product', adminController.postDeleteProduct);
 
-  
+module.exports = router;
