@@ -1,1 +1,65 @@
-[{"id":"123245","title":"A Book","imageUrl":"https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg","description":"This is an awesome book!","price":"19"},{"id":"0.5470530951313075","title":"Book","imageUrl":"https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg","description":"aaaaaaaaa","price":"2"},{"id":"0.8529546515543249","title":"BOOK2 ","imageUrl":"https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg","description":"ALEATORIO \r\n","price":"10"},{"id":"0.8213252707293719","title":"TESTE","imageUrl":"https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg","description":"","price":"5"},{"id":"0.5073680826442928","title":"BOOK 4","imageUrl":"https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg","description":"","price":"3"},{"id":"0.5084359880856129","title":"News","imageUrl":"https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg","description":"","price":"5"},{"id":"0.9153716948563524","title":"News","imageUrl":"https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg","description":"","price":"5"},{"id":"0.9157329146295698","title":"B","imageUrl":"https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg","description":"","price":"5"},{"id":"0.21756203955277265","title":"B","imageUrl":"https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg","description":"","price":"5"}]
+[
+    {
+        "id": "123245",
+        "title": "A Book",
+        "imageUrl": "https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg",
+        "description": "This is an awesome book!",
+        "price": "19"
+    },
+    {
+        "id": "0.5470530951313075",
+        "title": "Book",
+        "imageUrl": "https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg",
+        "description": "aaaaaaaaa",
+        "price": "2"
+    },
+    {
+        "id": "0.8529546515543249",
+        "title": "BOOK2 ",
+        "imageUrl": "https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg",
+        "description": "ALEATORIO \r\n",
+        "price": "10"
+    },
+    {
+        "id": "0.8213252707293719",
+        "title": "TESTE",
+        "imageUrl": "https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg",
+        "description": "",
+        "price": "5"
+    },
+    {
+        "id": "0.5073680826442928",
+        "title": "BOOK 4",
+        "imageUrl": "https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg",
+        "description": "",
+        "price": "3"
+    },
+    {
+        "id": "0.5084359880856129",
+        "title": "News",
+        "imageUrl": "https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg",
+        "description": "",
+        "price": "5"
+    },
+    {
+        "id": "0.9153716948563524",
+        "title": "News",
+        "imageUrl": "https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg",
+        "description": "",
+        "price": "5"
+    },
+    {
+        "id": "0.9157329146295698",
+        "title": "B",
+        "imageUrl": "https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg",
+        "description": "",
+        "price": "5"
+    },
+    {
+        "id": "0.21756203955277265",
+        "title": "B",
+        "imageUrl": "https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg",
+        "description": "",
+        "price": "5"
+    }
+]
